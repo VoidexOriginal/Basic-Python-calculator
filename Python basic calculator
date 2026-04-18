@@ -1,0 +1,51 @@
+
+
+
+# BİTİRME
+
+devam = "var"
+
+while devam != "yok":
+
+# SAYİ ALMA
+
+ print()
+
+ a = float(input("birinci sayı: "))
+
+ print()
+
+ b = float(input("ikinci sayı: "))
+
+ print()
+
+ islem = input("""
+İŞLEMLER
+toplama
+çıkarma
+çarpma
+bölme
+
+: """)
+
+# İSLEM KARLASTİRMA
+
+ print()
+
+ if islem == "toplama":
+  print("sonuç: ",  a + b)
+
+ if islem == "çıkarma":
+  print("sonuç: ",  a - b)
+
+ if islem == "çarpma":
+  print("sonuç: ",  a * b)
+
+ if islem == "bölme":
+  print("sonuç: ",  a / b)
+
+# BİTİRME
+
+ print()
+
+ devam = input("başka var mı (var, yok): ")
